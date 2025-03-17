@@ -14,21 +14,35 @@ Ensure you have Python installed on your system. You can check by running:
 python --version
 If Python is not installed, download and install it from python.org.
 Installation
-	1.	Clone the repository:
+
+1. Clone the repository:
  git clone https://github.com/your-username/calculator-app.git
 cd calculator-app
-	2.	Run the calculator:
+
+
+• Run the calculator:
  python calculator.py
  Usage
-	•	The program prompts the user to enter two numbers and an operator.
-	•	It then performs the selected operation and displays the result.
-	•	Example usage:
+
+• The program prompts the user to enter two numbers and an operator.
+
+
+• It then performs the selected operation and displays the result.
+
+Example usage:
+
  Enter first number: 10
+ 
 Enter operator (+, -, *, /): *
+
 Enter second number: 5
+
 Result: 50
+
 Code Example
+
 def calculator():
+    
     try:
         num1 = float(input("Enter first number: "))
         operator = input("Enter operator (+, -, *, /): ")
