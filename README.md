@@ -16,7 +16,10 @@ If Python is not installed, download and install it from python.org.
 Installation
 
 1. Clone the repository:
+
  git clone https://github.com/your-username/calculator-app.git
+
+
 cd calculator-app
 
 
@@ -66,6 +69,7 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
+
 Contributing
 
 Feel free to contribute by submitting issues or pull requests.
